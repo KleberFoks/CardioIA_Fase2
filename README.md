@@ -18,7 +18,7 @@ A arquitetura foi rigorosamente separada em duas abordagens de Inteligência Art
 1. **Modelagem de Regras (Parte 1):** Extração estruturada de sintomas relatados na linguagem natural usando correspondências baseadas em Ontologia (Sistemas Especialistas).
 2. **Machine Learning e Viés Algorítmico (Parte 2):** Implementação e treinamento de um classificador de risco (Regressão Logística). Aplicou-se também técnicas avançadas de processamento (`TfidfVectorizer` do *Scikit-learn*), refletindo com total transparência sobre *Underfitting* e viés de Falsos Positivos causados por bases de dados estreitas.
 
-> **Vídeo de Demonstração (YouTube):** [(https://youtu.be/TN1Ccgr_b5Y)]
+> **Vídeo de Demonstração (YouTube):** [((https://youtu.be/UuTJxS9J9BU))]
 
 ## 📁 Estrutura de pastas
 
