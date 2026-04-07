@@ -9,13 +9,7 @@
 # CardioIA - Fase 2: Diagnóstico Automatizado
 
 ## 👨‍🎓 Integrantes: 
-- <a href="#">Kleber Foks (RM: 562225 / Turma: 2TIAOA)</a> 
-
-## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="#">A preencher pelo aluno</a>
-### Coordenador(a)
-- <a href="#">A preencher pelo aluno</a>
+- <a href="#">Kleber Foks (RM: 562225 / Turma: 2TIAOA)</a>
 
 ## 📜 Descrição
 Este projeto soluciona o desafio integrador da **Fase 2 do CardioIA** atuando no Diagnóstico Automatizado de pacientes triados em Pronto Atendimento. 
@@ -24,7 +18,7 @@ A arquitetura foi rigorosamente separada em duas abordagens de Inteligência Art
 1. **Modelagem de Regras (Parte 1):** Extração estruturada de sintomas relatados na linguagem natural usando correspondências baseadas em Ontologia (Sistemas Especialistas).
 2. **Machine Learning e Viés Algorítmico (Parte 2):** Implementação e treinamento de um classificador de risco (Regressão Logística). Aplicou-se também técnicas avançadas de processamento (`TfidfVectorizer` do *Scikit-learn*), refletindo com total transparência sobre *Underfitting* e viés de Falsos Positivos causados por bases de dados estreitas.
 
-> **Vídeo de Demonstração (YouTube):** [COLE SEU LINK DO YOUTUBE AQUI]
+> **Vídeo de Demonstração (YouTube):** [(https://youtu.be/TN1Ccgr_b5Y)]
 
 ## 📁 Estrutura de pastas
 
@@ -38,7 +32,6 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
   - *Dado 1 (Mapeamento Tabelar):* `src/parte1/mapa_conhecimento.csv`. É nossa tabela estruturada relacionando Doenças.
   - *Dado 2 (Brutos/Textuais):* `src/parte1/sintomas.txt`. Variáveis qualitativas sintéticas simulando fala humana.
   - *Dado 3 (Relacional de ML):* `src/parte2/dataset_risco.csv`. Features de strings curtas supervisionadas em alvo categórico.
-- <b>scripts</b>: Posicione aqui automações se necessário.
 - <b>src</b>: **Diretório do Código Fonte**. Os módulos exigidos:
   - `src/parte1/analisador_sintomas`: Scrip Python contendo o raciocínio matemático de intersecções/parsing lógico.
   - `src/parte2/triagem_modelo` e `comparativo_vies`: Cérebros analíticos de modelagem estatística testando o peso do TF-IDF.
